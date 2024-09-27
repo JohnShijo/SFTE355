@@ -4,11 +4,11 @@ main:
 	
 	la $a0,greeting
 	
-	syscall
+	syscall #
 	
 	li $v0,10
 	
-	syscall
+	syscall #
 
 .data
 	greeting: .asciiz "Hello, World!"
